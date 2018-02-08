@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <!-- Screen margins, text height, Design parameters. -->
+        dimen name="activity_horizontal_margin">16dp
+        dimen name="activity_vertical_margin">16dp
+</resources>
