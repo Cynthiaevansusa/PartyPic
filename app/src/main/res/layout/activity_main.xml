@@ -7,8 +7,9 @@
 
     <ImageView
         android:id="@+id/androidparty"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:scaleType="centerCrop"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:src="@drawable/androidparty"
@@ -19,19 +20,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/happy_birthday_wish"
-        android:textColor="@color/colorPrimaryDark"
-        android:layout_margin="16dp"
-        android:textSize="35sp"/>
+        android:textColor="@color/colorWhite"
+        android:padding="20dp"
+        android:fontFamily="sans-serif-Light"
+        android:textSize="36sp"/>
 
     <TextView
         android:id="@+id/signature"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="24dp"
+        android:layout_alignParentRight="true"
+        android:padding="20dp"
         android:text="@string/all_my_love_signature"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="35sp" />
+        android:textColor="@color/colorWhite"
+        android:fontFamily="sans-serif-Light"
+        android:textSize="36sp" />
 
 </RelativeLayout>
